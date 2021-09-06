@@ -1,4 +1,5 @@
 # First day km
+
 a = 2
 # Minimum result in km
 b = 3
