@@ -1,7 +1,30 @@
-# Введите число
+# Список месяцев list
+month_list = ["January", "Febuary",
+              "March", "April", "May",
+              "June", "July", "August",
+              "September", "October", "November",
+              "December"]
 
-user_selected_number = input('Введите число - ')
+month_number = int(input('Введите номер месяца - '))
 
-overall_sum = int(user_selected_number) + int(user_selected_number + user_selected_number) + int(user_selected_number + user_selected_number + user_selected_number)
+print(month_list[month_number - 1])
+# Список месяцев dic
+month_dic = {
+    1: 'January',
+    2: 'Febuary',
+    3: 'March',
+    4: 'April',
+    5: 'May',
+    6: 'June',
+    7: 'July',
+    8: 'August',
+    9: 'September',
+    10: 'October',
+    11: 'November',
+    12: 'December',
+}
 
-print(f"Результат сложения чисел - {overall_sum}")
+month_number = int(input('Введите номер месяца - '))
+for key in month_dic:
+    if key == month_number:
+        print(month_dic[month_number])

@@ -1,14 +1,15 @@
-# Выручка
+# Список значений
+list_number = [7, 5, 4, 3, 2]
+insert_number = int(input('Введите число - '))
 
-gain = int(input('Введите выручку - '))
+i = 0
+for el in list_number:
+    if insert_number >= el:
+        list_number.insert(i, insert_number)
+        break
+    elif insert_number < el and len(list_number) - 1 == i:
+        list_number.insert(len(list_number), insert_number)
+        break
+    i += 1
 
-# Потеря
-loss = int(input('Убыток - '))
-
-if loss > gain:
-    print('Ваше предприятие убыточное')
-else:
-    print('Ваше предпрятие преуспевает')
-    personal_qty = int(input('Введите количество сотрудников - '))
-    salary_per_person = (gain - loss) / personal_qty
-    print(f"Зарплата для каждого сотрудника составляет {'%.2f' % salary_per_person}")
+print(list_number)

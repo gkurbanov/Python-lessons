@@ -1,12 +1,11 @@
-# Введите число
+# Пользователь вводит строку
+# Текст рыба - It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
+word_string = input('Введите строку из слов - ')
+words = word_string.split()
+print(words)
 
-a = int(input('Введите число - '))
-max_value = a % 10
-a = a // 10
 
-while a > 0:
-    if a % 10 > max_value:
-        max_value = a % 10
-    a = a // 10
-
-print(max_value)
+i = 1
+for key in words:
+    print(i, '>', key[:10])
+    i += 1
