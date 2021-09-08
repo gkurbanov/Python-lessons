@@ -4,7 +4,10 @@ word_string = input('Введите строку из слов - ')
 words = word_string.split()
 print(words)
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 i = 1
 for key in words:
     print(i, '>', key[:10])

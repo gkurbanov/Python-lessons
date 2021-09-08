@@ -1,5 +1,9 @@
 # Список значений
 list_number = [7, 5, 4, 3, 2]
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 insert_number = int(input('Введите число - '))
 
 i = 0

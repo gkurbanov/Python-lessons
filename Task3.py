@@ -8,6 +8,10 @@ month_list = ["January", "Febuary",
 month_number = int(input('Введите номер месяца - '))
 
 print(month_list[month_number - 1])
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 # Список месяцев dic
 month_dic = {
     1: 'January',

@@ -25,5 +25,8 @@ result_dictionary = {
     "количество": qty,
     "ед": values,
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 print(result_dictionary)
