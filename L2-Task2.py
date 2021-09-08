@@ -5,10 +5,7 @@ i = 0
 x = 2
 
 result_list = []
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 for el in words:
     new_list = words[i:x]
     if len(new_list):
